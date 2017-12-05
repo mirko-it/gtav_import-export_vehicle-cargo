@@ -1,0 +1,307 @@
+
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 1em;
+	color: #454545;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.panelCars .panelCarsList {
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 5px 5px 5px 5px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+
+
+.panelCars .panelCollections {
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 5px 5px 5px 5px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+
+
+
+.panelCars .panelCollections .panelCollection {
+	margin: 5px 5px 30px 5px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+
+
+.panelCars .panelCollections .panelCollection>.title {
+	font-size: .8em;
+	font-weight: bold;
+}
+
+.panelCars .panelCollections .panelCollection>.infoBonus {
+	font-size: .7em;
+}
+
+.panelCars .panelCollections .panelCollection>.infoValue {
+	font-size: .8em;
+	font-weight: bold;
+}
+
+
+.panelCars .panelCollections .panelCollection .panelImages {
+	/*text-align: center;*/
+}
+
+
+
+.panelCars .panelCar {
+	display: inline-block;
+	margin: 10px;
+}
+
+
+.panelCars .panelCar>.image {
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.panelCars .panelCar>.image.small {
+	width: 185px;
+	height: 104px;
+}
+.panelCars .panelCar>.image.big {
+	width: 455px;
+	height: 256px;
+}
+.panelCars .panelCar.overlay>.image {
+	box-shadow: inset 0 0 0 500px rgba(86, 126, 178, 0.6);
+}
+
+.panelCars .panelCar>.title {
+	font-family: 'Arial', sans-serif;
+	font-size: .7em;
+	font-weight: bold;
+}
+
+.panelCars .panelCar>.info {
+	font-size: .7em;
+}
+
+
+
+
+#home-page .buttonsOrderBy {
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+#home-page .buttonsOrderBy ons-button {
+	min-width: 74px;
+	min-height: 24px;
+	padding: 0px 5px;
+	line-height: 24px;
+	text-align: left;
+	text-transform: none;
+}
+
+#home-page .buttonsOrderBy ons-button ons-icon {
+	float: right;
+	margin-top: 5px;
+}
+
+
+
+.page__content ons-list>ons-list-item>div.center.list-item__center.list-item--material__center {
+}
+
+.page__content ons-list#listVehicles>ons-list-item,
+.page__content ons-list#listCollections>ons-list-item {
+}
+
+
+ons-card#elemCardSearchVehicle {
+	margin: 0px;
+	padding: 8px;
+	text-align: center;
+}
+
+ons-card#elemCardSearchVehicle input {
+	height: 28px;
+}
+
+
+.page__content .rowCars .colCar {
+}
+.page__content .rowCars .colCar.centered {
+	text-align: -webkit-center;
+}
+
+.page__content .rowCars .colCar .image {
+	border-radius: 6px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.page__content .rowCars .colCar.centered .image {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.page__content .rowCars .colCar.overlay .image {
+	box-shadow: inset 0 0 0 500px rgba(86, 126, 178, 0.6);
+}
+
+.page__content .rowCars .colCar .car_icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.page__content .rowCars .colCar .car_icon.star {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 1px 0px 0px 1px;
+}
+.page__content .rowCars .colCar .car_icon.check {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 1px;
+	bottom: 1px;
+}
+
+.page__content .rowCars .colCar .list-item__title {
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+}
+.page__content .rowCars .colCar .list-item__title.name {
+	white-space: nowrap;
+}
+.page__content .rowCars .colCar .list-item__title.plate {
+	font-size: 1.1em;
+}
+
+.page__content .list-item__title.collection_title {
+	white-space: nowrap;
+}
+.page__content .list-item__title.collection_info {
+	font-size: .9em;
+	white-space: nowrap;
+}
+
+.page__content .rowCars .colCar .list-item__subtitle {
+	display: block;
+}
+
+#dialog-vehicle .badge {
+	text-align: center;
+}
+
+#dialog-vehicle .list-item__thumbnail {
+	border-radius: 6px;
+}
+#dialog-vehicle .list-item__thumbnail {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dialog-vehicle .list-item__title {
+	display: inline-block;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+}
+#dialog-vehicle .list-item__title.name {
+	margin-top: 10px;
+	white-space: nowrap;
+}
+#dialog-vehicle .list-item__title.plate {
+	font-size: 1.1em;
+}
+
+#dialog-vehicle .info {
+	margin: 5px 10px 5px 10px;
+}
+#dialog-vehicle .stars {
+	text-align: center;
+}
+#dialog-vehicle .stars .star {
+	margin: 0px 5px 5px 5px;
+}
+
+#dialog-vehicle .buttons {
+	text-align: center;
+}
+#dialog-vehicle .buttons .button {
+	margin: 5px 5px 0px 5px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+.page__content ons-list>ons-list-item>div.center.list-item__center.list-item--material__center {
+		padding: 8px 2px 4px 2px;
+	}
+
+	.page__content ons-list#listVehicles>ons-list-item,
+	.page__content ons-list#listCollections>ons-list-item {
+		padding: 0px 0px 0px 4px;
+	}
+
+	.page__content .rowCars .colCar {
+		margin: 0px 4px 0px 0px;
+		line-height: .9em;
+	}
+
+	.page__content .rowCars .colCar .image {
+	}
+
+	.page__content .rowCars .colCar .list-item__title {
+	}
+	.page__content .rowCars .colCar .list-item__title.name {
+		font-size: .6em;
+		line-height: .8em;
+	}
+	.page__content .rowCars .colCar .list-item__title.plate {
+		font-size: .8em;
+		line-height: .8em;
+	}
+
+	.page__content .list-item__title.collection_title {
+		margin-top: 2px;
+		font-size: .7em;
+	}
+	.page__content .list-item__title.collection_info {
+		margin-top: 2px;
+		font-size: .7em;
+	}
+
+	.page__content .rowCars .colCar .list-item__subtitle {
+		margin: 1px 0px 0px 0px;
+		font-size: .5em;
+		line-height: .9em;
+	}
+
+}
+
