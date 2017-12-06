@@ -540,6 +540,8 @@ if (location.hostname == "127.0.0.1") gtav.cars.data.vehicles[i].img = "no_img";
 		gtav.cars.isPageLoaded = true;
 		if (gtav.cars.isPageReady && gtav.cars.isPageLoaded) gtav.cars.ui.refreshOwnedCarsList();
 
+		window.scrollTo(0,1);
+
 /* * /
 var plate = "B1GM0N3Y";
 //plate = "M4K3B4NK";
